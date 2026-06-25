@@ -1,0 +1,5 @@
+sequenceDiagram
+    participant CustomerUserAdministrator
+    participant BileMoApi@{ "type": "boundary" }
+    CustomerUserAdministrator->>+BileMoApi:  Activate or deactivate a customer user
+    BileMoApi--xCustomerUserAdministrator: Send a message of success

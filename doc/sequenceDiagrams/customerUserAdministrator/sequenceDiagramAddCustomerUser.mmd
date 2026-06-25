@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant CustomerUserAdministrator
+    participant BileMoApi@{ "type": "boundary" }
+    CustomerUserAdministrator->>+BileMoApi:  Add a customer user
+    alt The form isn't valid
+        BileMoApi--xCustomerUserAdministrator: Send a message with error
+    else
+          BileMoApi--xCustomerUserAdministrator : Send a message to confirm the addition of customer user
+    end
