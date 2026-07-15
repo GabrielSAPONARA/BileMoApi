@@ -1,0 +1,5 @@
+sequenceDiagram
+    participant CustomerUser
+    participant BileMoApi@{ "type": "boundary" }
+    CustomerUser->>+BileMoApi:  Get the detail of a product
+    BileMoApi--xCustomerUser: Send the detail of a product

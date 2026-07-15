@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant CustomerUser
+    participant BileMoApi@{ "type": "boundary" }
+    CustomerUser->>+BileMoApi:  Sign in
+    alt Authentication is correct
+        BileMoApi--xCustomerUser: Send a message of success
+    else
+        BileMoApi--xCustomerUser: Send a message of error
+    end

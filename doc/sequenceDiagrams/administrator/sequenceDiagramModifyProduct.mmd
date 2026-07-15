@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant Administrator
+    participant BileMoApi@{ "type": "boundary" }
+    Administrator->>+BileMoApi:  Modify a product
+    alt The form is correct
+        BileMoApi--xAdministrator: Send a message of success
+    else
+        BileMoApi--xAdministrator: Send a message of error
+    end
