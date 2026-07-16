@@ -1,0 +1,5 @@
+sequenceDiagram
+    participant CustomerUserAdministrator
+    participant BileMoApi@{ "type": "boundary" }
+    CustomerUserAdministrator->>+BileMoApi:  Get the list of customer users
+    BileMoApi--xCustomerUserAdministrator: Send list of customer users

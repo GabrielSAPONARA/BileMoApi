@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant Administrator
+    participant BileMoApi@{ "type": "boundary" }
+    Administrator->>+BileMoApi:  Delete a customer user administrator
+    alt The user is correctly deleted
+        BileMoApi--xAdministrator: Send a message of success
+    else
+        BileMoApi--xAdministrator: Send a message of error
+    end
