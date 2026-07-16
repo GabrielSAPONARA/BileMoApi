@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "81f374e88629f86476356bd51324ceb8",
     "packages": [
         {
@@ -2733,6 +2734,11 @@
             "time": "2026-07-08T07:01:06+00:00"
         },
         {
+=======
+    "content-hash": "9fb4479c02537ee2217706a1faa4f46e",
+    "packages": [
+        {
+>>>>>>> master
             "name": "psr/cache",
             "version": "3.0.0",
             "source": {
@@ -2782,6 +2788,7 @@
             "time": "2021-02-03T23:26:27+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "psr/clock",
             "version": "1.0.0",
             "source": {
@@ -2830,6 +2837,8 @@
             "time": "2022-11-25T14:36:26+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "psr/container",
             "version": "2.0.2",
             "source": {
@@ -2933,6 +2942,7 @@
             "time": "2019-01-08T18:20:26+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "psr/link",
             "version": "2.0.1",
             "source": {
@@ -2989,6 +2999,8 @@
             "time": "2021-03-11T23:00:27+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "psr/log",
             "version": "3.0.2",
             "source": {
@@ -3039,6 +3051,7 @@
             "time": "2024-09-11T13:17:53+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/asset",
             "version": "v7.4.8",
             "source": {
@@ -3112,6 +3125,8 @@
             "time": "2026-03-24T13:12:05+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/cache",
             "version": "v7.4.14",
             "source": {
@@ -3296,6 +3311,7 @@
             "time": "2026-06-05T06:23:12+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/clock",
             "version": "v7.4.8",
             "source": {
@@ -3374,6 +3390,8 @@
             "time": "2026-03-24T13:12:05+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/config",
             "version": "v7.4.14",
             "source": {
@@ -3706,6 +3724,7 @@
             "time": "2026-06-05T06:23:12+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/doctrine-bridge",
             "version": "v7.4.14",
             "source": {
@@ -3819,6 +3838,8 @@
             "time": "2026-06-11T07:31:44+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/dotenv",
             "version": "v7.4.14",
             "source": {
@@ -4144,6 +4165,7 @@
             "time": "2026-06-05T06:23:12+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/expression-language",
             "version": "v7.4.14",
             "source": {
@@ -4212,6 +4234,8 @@
             "time": "2026-06-08T20:24:16+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/filesystem",
             "version": "v7.4.11",
             "source": {
@@ -4782,6 +4806,7 @@
             "time": "2026-06-27T09:14:35+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/password-hasher",
             "version": "v7.4.8",
             "source": {
@@ -4858,6 +4883,8 @@
             "time": "2026-03-24T13:12:05+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/polyfill-intl-grapheme",
             "version": "v1.38.1",
             "source": {
@@ -5110,6 +5137,7 @@
             "time": "2026-05-27T06:59:30+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/polyfill-php83",
             "version": "v1.38.2",
             "source": {
@@ -5270,6 +5298,8 @@
             "time": "2026-05-26T12:51:13+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/polyfill-php85",
             "version": "v1.38.1",
             "source": {
@@ -5350,6 +5380,7 @@
             "time": "2026-05-26T02:25:22+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/polyfill-uuid",
             "version": "v1.37.0",
             "source": {
@@ -5604,6 +5635,8 @@
             "time": "2026-03-24T13:12:05+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/routing",
             "version": "v7.4.13",
             "source": {
@@ -5774,6 +5807,7 @@
             "time": "2026-06-05T06:22:21+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/security-bundle",
             "version": "v7.4.14",
             "source": {
@@ -6247,6 +6281,8 @@
             "time": "2026-06-27T08:31:18+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/service-contracts",
             "version": "v3.7.1",
             "source": {
@@ -6334,6 +6370,7 @@
             "time": "2026-06-16T09:55:08+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/stopwatch",
             "version": "v7.4.8",
             "source": {
@@ -6400,6 +6437,8 @@
             "time": "2026-03-24T13:12:05+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/string",
             "version": "v7.4.13",
             "source": {
@@ -6491,6 +6530,7 @@
             "time": "2026-05-23T15:23:29+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/translation-contracts",
             "version": "v3.7.1",
             "source": {
@@ -7043,6 +7083,8 @@
             "time": "2026-06-27T06:16:12+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/var-dumper",
             "version": "v7.4.14",
             "source": {
@@ -7211,6 +7253,7 @@
             "time": "2026-06-27T08:41:53+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/web-link",
             "version": "v7.4.8",
             "source": {
@@ -7298,6 +7341,8 @@
             "time": "2026-03-24T13:12:05+00:00"
         },
         {
+=======
+>>>>>>> master
             "name": "symfony/yaml",
             "version": "v7.4.14",
             "source": {
@@ -7372,6 +7417,7 @@
                 }
             ],
             "time": "2026-06-08T20:24:16+00:00"
+<<<<<<< HEAD
         },
         {
             "name": "twig/twig",
@@ -7574,6 +7620,8 @@
                 "source": "https://github.com/willdurand/Negotiation/tree/3.1.0"
             },
             "time": "2022-01-30T20:08:53+00:00"
+=======
+>>>>>>> master
         }
     ],
     "packages-dev": [],
