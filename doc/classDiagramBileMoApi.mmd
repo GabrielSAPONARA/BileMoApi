@@ -1,0 +1,39 @@
+---
+config:
+  theme: redux
+---
+classDiagram
+    Compagny "1..n" <-- "0..1" UserAccount 
+    class Smartphone {
+        -int id
+        -String name
+        -int price
+        -String brand
+        +getId() int
+        +getName() String
+        +setName(String name)
+        +getPrice() int
+        +setPrice(int price)
+        +getBrand() String
+        +setBrand(String brand)
+    }
+    class UserAccount {
+        -int id
+        -String username
+        -String email
+        -String password
+        +getId() int
+        +getUsername() String
+        +setUsername(String username)
+        +getEmail() String
+        +setEmail(String email)
+        +getPassword() String
+        +setPassword(String password)
+    }
+    class Compagny {
+        -int id
+        -String name
+        +getId() int
+        +getName() String
+        +setName(String name)
+    }
