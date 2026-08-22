@@ -1634,7 +1634,6 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         doctrine_migrations?: DoctrineMigrationsConfig,
  *         nelmio_cors?: NelmioCorsConfig,
  *         api_platform?: ApiPlatformConfig,
-
  *     },
  *     "when@prod"?: array{
  *         imports?: ImportsConfig,
