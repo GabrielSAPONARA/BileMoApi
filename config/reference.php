@@ -36,7 +36,7 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  * @psalm-type ParametersConfig = array<string, scalar|\UnitEnum|array<scalar|\UnitEnum|array<mixed>|Param|null>|Param|null>
  * @psalm-type ArgumentsType = list<mixed>|array<string, mixed>
  * @psalm-type CallType = array<string, ArgumentsType>|array{0:string, 1?:ArgumentsType, 2?:bool}|array{method:string, arguments?:ArgumentsType, returns_clone?:bool}
- * @psalm-type TagsType = list<string|array<string, array<string, mixed>>> // arrays inside the list must have only one element, with the tag name as the key
+
  * @psalm-type CallbackType = string|array{0:string|ReferenceConfigurator,1:string}|\Closure|ReferenceConfigurator|ExpressionConfigurator
  * @psalm-type DeprecationType = array{package: string, version: string, message?: string}
  * @psalm-type DefaultsType = array{
@@ -1476,7 +1476,7 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         validation_error_resource_class?: scalar|Param|null, // The class used to represent validation errors in the OpenAPI documentation. // Default: null
  *     },
  *     maker?: bool|array{
- *         enabled?: bool|Param, // Default: true
+ *         enabled?: bool|Param, // Default: false
  *         namespace_prefix?: scalar|Param|null, // Add a prefix to all maker generated classes. e.g set it to "Api" to set the maker namespace to "App\Api\" (if the maker.root_namespace config is App). e.g. App\Api\State\MyStateProcessor // Default: ""
  *     },
  *     mcp?: bool|array{
@@ -1612,11 +1612,6 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         ...<string, mixed>
  *     },
  * }
- * @psalm-type MakerConfig = array{
- *     root_namespace?: scalar|Param|null, // Default: "App"
- *     generate_final_classes?: bool|Param, // Default: true
- *     generate_final_entities?: bool|Param, // Default: false
- * }
  * @psalm-type ConfigType = array{
  *     imports?: ImportsConfig,
  *     parameters?: ParametersConfig,
@@ -1639,7 +1634,6 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         doctrine_migrations?: DoctrineMigrationsConfig,
  *         nelmio_cors?: NelmioCorsConfig,
  *         api_platform?: ApiPlatformConfig,
- *         maker?: MakerConfig,
  *     },
  *     "when@prod"?: array{
  *         imports?: ImportsConfig,
