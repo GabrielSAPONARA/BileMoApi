@@ -7,7 +7,6 @@
         "php": ">=8.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
-<<<<<<< HEAD
         "api-platform/doctrine-orm": "^4.3",
         "api-platform/symfony": "^4.3",
         "doctrine/doctrine-bundle": "^2.18",
@@ -31,17 +30,8 @@
         "symfony/validator": "7.4.*",
         "symfony/yaml": "7.4.*"
     },
-=======
-        "symfony/console": "7.4.*",
-        "symfony/dotenv": "7.4.*",
-        "symfony/flex": "^2",
-        "symfony/framework-bundle": "7.4.*",
-        "symfony/runtime": "7.4.*",
-        "symfony/yaml": "7.4.*"
-    },
     "require-dev": {
     },
->>>>>>> master
     "config": {
         "allow-plugins": {
             "php-http/discovery": true,

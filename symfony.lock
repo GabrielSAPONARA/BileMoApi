@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "api-platform/symfony": {
         "version": "4.3",
         "recipe": {
@@ -62,8 +61,6 @@
             "config/packages/nelmio_cors.yaml"
         ]
     },
-=======
->>>>>>> master
     "symfony/console": {
         "version": "7.4",
         "recipe": {
@@ -109,7 +106,6 @@
             ".editorconfig"
         ]
     },
-<<<<<<< HEAD
     "symfony/property-info": {
         "version": "7.4",
         "recipe": {
@@ -122,8 +118,6 @@
             "config/packages/property_info.yaml"
         ]
     },
-=======
->>>>>>> master
     "symfony/routing": {
         "version": "7.4",
         "recipe": {
@@ -136,7 +130,6 @@
             "config/packages/routing.yaml",
             "config/routes.yaml"
         ]
-<<<<<<< HEAD
     },
     "symfony/security-bundle": {
         "version": "7.4",
@@ -184,7 +177,5 @@
         "files": [
             "config/packages/validator.yaml"
         ]
-=======
->>>>>>> master
     }
 }
