@@ -9,3 +9,7 @@
 
 controllers:
     resource: routing.controllers
+
+debug_env:
+    path: /debug/env
+    controller: App\Controller\DebugController::env
